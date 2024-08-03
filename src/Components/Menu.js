@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-
 const Menu = ({ allMenues }) => {
   return (
     <div className="section-center">
