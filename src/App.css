@@ -141,7 +141,6 @@ p {
 Menu
 ===============
 */
-
 .menu {
   padding: 5rem 0;
 }
@@ -155,7 +154,6 @@ Menu
   background: var(--clr-gold);
   margin-left: auto;
   margin-right: auto;
- 
 }
 
 .btn-container {
