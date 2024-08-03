@@ -9,7 +9,6 @@ const menuTitleArray = ["All", ...new Set(data.map((cate) => cate.category))];
 function App() {
   const [allMenues,setAllMenues]=useState(data);
   const [menuTitle] = useState(menuTitleArray);
-
   const fiterProduct = (category) => {
  if(category==='All'){
   setAllMenues(data)
@@ -17,7 +16,6 @@ function App() {
  }
  let filteredMenu=data.filter(menu => menu.category === category)
 setAllMenues(filteredMenu)
-
   };
   return (
     <main>
