@@ -11,8 +11,7 @@ const Categories = ({menuTitle,fiterProduct}) => {
     <>
       <div  className="btn-container">
         {menuTitle.map((category,index) => (
-          <>
-   
+          <>   
             <button
               type="button"
               className={
