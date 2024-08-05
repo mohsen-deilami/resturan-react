@@ -13,14 +13,11 @@ const Categories = ({menuTitle,fiterProduct}) => {
         {menuTitle.map((category,index) => (
           <>   
             <button    type="button"      className={category === categorySelect ? "filter-btn highlight": "filter-btn" }
-              onClick={() => {
-                selectcategoryFunc(category)
+              onClick={() => {selectcategoryFunc(category) 
                 fiterProduct(category)
               }
             }
-            key={index+1}
-            >
-              {category}
+            key={index+1}>{category}
             </button>
           </>
         ))}
