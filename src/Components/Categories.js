@@ -17,8 +17,7 @@ const Categories = ({menuTitle,fiterProduct}) => {
                 fiterProduct(category)
               }
             }
-            key={index+1}>{category}
-            </button>
+            key={index+1}>{category} </button>
           </>
         ))}
       </div>
