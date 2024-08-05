@@ -18,4 +18,5 @@ const Menu = ({ allMenues }) => {
     </div>
   );
 };
+
 export default Menu;
