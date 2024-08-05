@@ -4,8 +4,7 @@ import Categories from "./Components/Categories";
 import Menu from "./Components/Menu";
 import data from "./data";
 
-const menuTitleArray = ["All", ...new Set(data.map((cate) => cate.category))];
-//برای از بین بردن داده های تکراری
+const menuTitleArray = ["All", ...new Set(data.map((cate) => cate.category))];//برای از بین بردن داده های تکراری
 function App() {
   const [allMenues,setAllMenues]=useState(data);
   const [menuTitle] = useState(menuTitleArray);
