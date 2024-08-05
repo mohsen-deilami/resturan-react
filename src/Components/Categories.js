@@ -12,13 +12,7 @@ const Categories = ({menuTitle,fiterProduct}) => {
       <div  className="btn-container">
         {menuTitle.map((category,index) => (
           <>   
-            <button
-              type="button"
-              className={
-                category === categorySelect
-                ? "filter-btn highlight"
-                : "filter-btn"
-              }
+            <button    type="button"      className={category === categorySelect ? "filter-btn highlight": "filter-btn" }
               onClick={() => {
                 selectcategoryFunc(category)
                 fiterProduct(category)
